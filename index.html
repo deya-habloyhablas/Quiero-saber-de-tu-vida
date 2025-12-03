@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiero saber de tu vida</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Playwrite US Trad (closest to Playwrite USA Traditional Guides) and Roboto for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal: {
+                900: '#1b4f4d',
+              },
+              coral: {
+                500: '#ee7760',
+                400: '#eb847c',
+              },
+              cream: {
+                100: '#eae5d8',
+              },
+              yellow: {
+                400: '#fcc352',
+              }
+            },
+            fontFamily: {
+              hand: ['"Playwrite US Trad"', 'cursive'],
+              sans: ['"Roboto"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #eae5d8;
+        color: #1b4f4d;
+      }
+      /* Custom shadow for the paper/post-it effect */
+      .paper-shadow {
+        box-shadow: 2px 3px 10px rgba(27, 79, 77, 0.2);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
