@@ -68,7 +68,7 @@ export default function App() {
               onClick={startGame}
               className="group relative inline-flex items-center justify-center px-12 py-6 text-2xl font-bold text-white bg-coral-400 rounded-full shadow-lg transform transition hover:scale-105 hover:bg-coral-500 hover:shadow-xl active:translate-y-1 focus:outline-none focus:ring-4 focus:ring-coral-400/50"
             >
-              <span className="relative z-10 font-hand text-3xl">Crear Juego</span>
+              <span className="relative z-10 font-hand text-3xl">Crear</span>
             </button>
           </div>
         ) : (
